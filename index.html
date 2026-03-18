@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name = "description" content = "messing around woith html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <meta name = "author" content = "Mee">
+    <meta name = "keywords" content = "HTML, website, coding, test">
+    <title>Document</title>
+    <iframe style= "border:0; background-color: red"src = "page2.html">  </iframe>
+</head>
+< style= "background-color: azure">
+    <a href="page2.html">
+    <img src="screenshot.jpeg" height="300" alt = "screenshot" title = "screenshot"> </a>
+    <h1 style="color:rgb(18, 233, 26)">Tests</h1>
+    <video controls autoplay muted loop width="400"<source src="hitroll.mp4">tt</video>
+    <div style="background-color:222222">
+    <p> this is normal text </p>
+    <p> this is <b>bold</b> text </p>
+    <p> this is <i>italic</i>text </p>
+    <p> this is <big>big</big> text </p>
+    <p> this is <small>small</small>l text </p>
+    <p> this is <sub>sub</sub> text </p>
+    <p> this is <sup>sup</sup> text </p>
+    <p> this is <mark>mark</mark> text </p>
+    </div>
+    <h4>Unordered List</h4>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>This is just bullet poins</li>
+        <li> Lil <span style="color:#222222">nest</span> over here</li>
+        <ol>
+            <li>Ordered list</li>
+            <li>hehe</li>
+            <li>diff types: a, 1, i</li>
+        </ol>
+    </ul>
+    <h4>Descriptions list</h4>
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Definition 1</dd>
+        <dt>yh pretty cool</dt>
+        <dd>dl and dt</dd>
+    </dl>
+    <h4>Hyperlinks</h4>
+    <a href="https://www.google.com">google</a>
+
+    <table bgcolor="black">
+        <tr bgcolor = "lightgrey">
+            <th width = "100">table </th>
+            <th width = "900">header</th>
+            <th width = "200">is pretty cool</th>
+        </tr>
+        <tr bgcolor = "lightgrey" align="center">
+
+            <td width = "100">notheader</td>
+            <td width = "100">but</td>
+            <td width = "100">stillcool</td>
+        </tr>
+    </table>
+    
+
+    <form>
+        <div>
+            <label for ="sum1">Type something </label>
+            <input type="text" id = "sum1" name = "sum1" placeholder = "type it boi">
+        </div>
+
+        <br>
+
+        <div>
+            <label for ="sum2">Type something </label>
+            <input type="text" id = "sum2" name = "sum2" placeholder = "type it again">
+        </div>
+
+        <div>
+            <input type = "reset">
+        </div>
+
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass">
+        </div>
+        
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder = "bob1@gmail.com">
+        </div>
+
+        <div>
+            <label for="phone">phone</label>
+            <input type="tel" id="phone" name="phone" placeholder = "123456789">
+        </div>
+
+        <div>
+            <label for="bdate">bday</label>
+            <input type="date" id="bdate" name="birthday date" placeholder = " 01/01/01">
+        </div>
+
+        <div>
+            <label for="numb">numba</label>
+            <input type="number" id="numb" name="numb" min = 1 max = 100 value = 1>
+        </div>
+
+        <div>
+            <label for="ee">e</label>
+            <input id= "ee" type="radio" name = "letter" value = "e">
+
+            <label for="EE">E</label>
+            <input id= "EE" type="radio" name = "letter" value = "E">
+        </div>
+
+        <div>
+            <label for="select">select</label>
+            <select id= "select" name="payment">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="check"> checkit</label
+            <input id= "check" type="checkbox" name = "letter" value = "e">
+            
+        </div>
+    <button onclick = "doSomething()" style = "background-color: red">click mee</button>
+
+
+
+
+    <p id = "test"></p>
+    <script>
+        function doSomething() {
+            document.getElementById("test").innerHTML = "you clicked the button";
+        }
+
+    </script>
+</body>
+</html>
